@@ -87,11 +87,15 @@ class Navbar extends React.Component {
       >
         <div className="container">
           <a className="navbar-brand js-scroll" href="#page-top">
-            <img
+            {/* <img
               src={this.state.logo}
               alt="logo"
               style={{ maxWidth: "100px" }}
-            />
+            /> */}
+          <span>
+              Cecilia Chen
+            </span>
+
           </a>
           <button
             className="navbar-toggler collapsed"
@@ -118,17 +122,22 @@ class Navbar extends React.Component {
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#about">
-                  About
+                  About me
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#work">
-                  Work
+                  Projects
+                </a>
+              </li>
+              <li className="nav-item">
+                <a className="nav-link js-scroll" href="#work">
+                  Photography
                 </a>
               </li>
               <li className="nav-item">
                 <a className="nav-link js-scroll" href="#contact">
-                  Contact
+                  Contact me :)
                 </a>
               </li>
             </ul>
